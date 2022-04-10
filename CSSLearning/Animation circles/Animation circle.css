@@ -1,0 +1,30 @@
+.balls{
+    margin-top: 50px;
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    animation-name: circle;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    background: blue linear-gradient(35deg, red, orange, green);
+}
+#top {
+    left: 27%;
+    animation-timing-function: ease;
+}
+#bottom {
+    left: 36%;
+    animation-timing-function: ease;
+}
+@keyframes circle{
+    0%{
+        top: 0px;
+    }
+    50%{
+        top: 200px;
+    }
+    100%{
+        top: 0px;
+    }
+}
