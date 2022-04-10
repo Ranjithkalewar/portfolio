@@ -1,4 +1,26 @@
 .header{
-    height: 40px;
+    /*width: 200px;*/
+    height: 60px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+.headerButtonBlock{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    border: 1px solid red;
+
+}
+.headerButton {
+    width: 20px;
+    height: 30px;
     border: 1px solid black;
 }
