@@ -1,0 +1,12 @@
+.family{
+    font-family: "Times New Roman", serif;
+}
+.style{
+    font-style: italic;
+}
+.size{
+    font-size: 60px;
+}
+.weight{
+    font-weight: bold;
+}
