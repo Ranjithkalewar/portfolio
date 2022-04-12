@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+    <link rel="stylesheet" href="Forms.css" type="text/css">
+</head>
+<body>
+<div class="main">
+<div class="register">
+    <form id="register" method="post" target="_blank">
+    <h2>Please Enter Your Details</h2>
+    <label>First Name:</label>
+    <br>
+    <input type="text" name="fname" id="name"
+    placeholder="Enter your first name" required/>
+    <br><br/>
+    <label>Last Name:</label>
+    <br>
+    <input type="text" name="lname" id="name"
+           placeholder="Enter your last name" required/>
+    <br><br/>
+        <label>Email Address:</label>
+        <br>
+        <input type="email" name="Email" id="name"
+               placeholder="Enter your Email address" required/>
+        <br><br/>
+        <label>Password:</label>
+        <br>
+        <input type="password" name="pswd" id="name"
+               placeholder="Enter your password here" required/>
+        <br><br/>
+        <label>Your Age:</label>
+    <br>
+    <input type="number" name="age" id="name"
+    placeholder="age" required/>
+    <br><br/>
+     <label>Gender:</label>
+     <br>
+     <input type="radio" name="gender" id="male" value="m"> Male
+     <input type="radio" name="gender" id="female" value="f"> Female
+    <br><br/>
+    <label>Known Languages:</label>
+    <br>
+    <input type="checkbox" name="Lang" id="hindi" value="Hin"/>Hindi
+    <input type="checkbox" name="Lang" id="Telugu" value="Tel"/>Telugu
+    <input type="checkbox" name="Lang" id="English" value="Eng"/>English
+    <br><br/>
+    <button type="submit" id="submit" name="submit">Submit</button>
+    </form>
+</div>
+</div>
+</body>
+</html>
