@@ -68,7 +68,8 @@ nav ul li a:hover{
     position: absolute;
     top: 50%;
     left:8%;
-    transform: translateY(-50%)}
+    transform: translateY(-50%);
+}
 h1{
     color: white;
     font-style: italic;
