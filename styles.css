@@ -4,45 +4,6 @@
     font-family: "josefin Sans", sans-serif;
     box-sizing: border-box;
 }
-@media
-only screen and (max-width: 960px) {
-    div.flex {
-        height: auto;
-        flex-direction: column; /* vertical! */
-    }
-
-    div.timeline {
-        height: auto;
-        margin: auto;
-        width: auto;
-        display: block;
-        flex: 1 100%;
-    }
-
-    div.hero {
-        height: auto;
-        display: block;
-        flex: 1 100%;
-    }
-
-    .timeline-both-side {
-        width: auto;
-    }
-
-    div.header {
-        position: relative;
-        display: block;
-        transform: none;
-    }
-}
-@media
-only screen and (max-width: 480px) {
-    div.hero {
-        height: auto;
-        display: block;
-        overflow: hidden;
-    }
-}
 .Ranjith{
     height:100Vh;
     width: 100%;
