@@ -4,6 +4,11 @@
     font-family: "josefin Sans", sans-serif;
     box-sizing: border-box;
 }
+@media (max-width: 800px){
+    h1 h2 h3 h4{
+        font-size: 10px;
+    }
+}
 .Ranjith{
     height:100Vh;
     width: 100%;
@@ -70,6 +75,12 @@ nav ul li a:hover{
     left:8%;
     transform: translateY(-50%);
 }
+@media (max-width: 800px){
+        h1 h2 h3 h4{
+            font-size: 10px;
+        }
+}
+
 h1{
     color: white;
     font-style: italic;
