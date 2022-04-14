@@ -7,7 +7,7 @@
 .Ranjith{
     height:100Vh;
     width: 100%;
-    background-image: url("Ranjith.png");
+    background-image: url("promain.Png");
     background-size: cover;
     background-position: center;
 }
@@ -122,6 +122,69 @@ h4{
 }
 h1 span{
     color: deeppink;
+}
+#abimg{
+    margin: 150px 0 150px 150px;
+    width: 35%;
+    height: 30%;
+}
+.about{
+    background-color: black;
+    align-content: center;
+
+}
+.abouttext{
+    width: 500px;
+    text-align: justify;
+
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    align-items: center;
+}
+.abouttext h2{
+    color: white;
+    font-size: 70px;
+    font-style: italic;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.abouttext h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    font-style: italic;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+.abouttext h5 span{
+    color: deeppink;
+
+}
+.abouttext p{
+    color: #fcd2d9;
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+#aboutbtn{
+    background-color: deeppink;
+    color: white;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid deeppink;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.4s;
+}
+#aboutbtn:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid deeppink;
 }
 
 
