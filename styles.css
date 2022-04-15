@@ -40,7 +40,6 @@ nav ul li a{
     text-transform: capitalize;
     text-shadow: 1px 1px 1px 1px;
 }
-
 nav ul li a:hover{
     color: deeppink;
     transition: 0.5s;
@@ -70,7 +69,6 @@ nav ul li a:hover{
     top: 50%;
     left:8%;
     transform: translateY(-50%);
-
 }
 h1{
     color: white;
