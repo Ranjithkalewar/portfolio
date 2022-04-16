@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Functions</title>
+    <script type="text/javascript">
+        function A(a,b){
+            window.alert("Addition of "+a+","+b+" is:"+(a+b));
+        }
+        function f(){
+        let a=document.getElementById("first").value;
+        let b=document.getElementById("second").value;
+        let c=(parseInt(a)+parseInt(b));
+        return c;
+        }
+        function f1 () {
+            let result = f();
+            document.getElementById("result").value=result;
+        }
+    </script>
+
+</head>
+<body>
+<form name="Form1">
+<input type="text" placeholder="Enter Numbers" id="first"/>+
+<input type="text" placeholder="Enter Number" id="second"/>=
+<input type="text" placeholder="Result" id="result" onclick="f1()"/>
+</form>
+<br/>
+
+
+ Please click <input type="button" value="Here" onclick="A(5,9)">
+
+</body>
+</html>
