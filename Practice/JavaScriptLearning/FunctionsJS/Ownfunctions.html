@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>own</title>
+    <script type="text/javascript">
+        function fs() {
+            let a = document.getElementById("firsts").value;
+
+            let b = document.getElementById("seconds").value;
+
+            return (parseInt(a) - parseInt(b));
+        }
+        function fs1(){
+            document.getElementById("results").value=fs()
+        }
+        function fa() {
+        let a= document.getElementById("firsta").value;
+        let b= document.getElementById("seconda").value;
+            return (parseInt(a) + parseInt(b));
+        }
+        function fa1(){
+            document.getElementById("resulta").value=fa();
+        }
+    </script>
+</head>
+<body>
+<form class="form1">
+    <label>
+        <input type="text" id="firsts"> -
+        <input type="text" id="seconds"> =
+        <input type="text" id="results" onclick="fs1()">
+    </label>
+    <br/>
+    <br/>
+    <label>
+        <input type="text" id="firsta"> +
+        <input type="text" id="seconda"> =
+        <input type="text" id="resulta" onclick="fa1()">
+    </label>
+</form>
+</body>
+</html>
