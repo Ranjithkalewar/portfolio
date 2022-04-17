@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Creating Forms</title>
+</head>
+<body>
+<h1>Please Enter your details here</h1>
+<form method="GET" action="https://www.thesaurus.com" target="_blank">
+    Username
+    <input type="text" placeholder="Name" required name="Name"/>
+    <br/><br/>
+
+    Password
+    <input type="password" required name="pswd"/>
+    <br/><br/>
+
+    Hobbies
+    <input type="checkbox" name="game" value="fb"/>football
+    <input type="checkbox" name="study" value="Rb"/>reading books
+    <br/><br/>
+
+    Gender
+    <input type="radio" name="gender" value="M"/> male
+    <input type="radio" name="gender" value="F"/> female
+    <input type="radio" name="gender" value="O"/> Others
+    <br/><br/>
+
+    Date of Birth
+    <input type="date" required name="dob"/>
+    <br/><br/>
+
+    Gmail Address
+    <input type="email" required name="mail"/>
+    <br/><br/>
+
+    Country
+    <select>
+        <option value="IND">India</option>
+        <option value="US">USA</option>
+        <option value="Som">Somalia</option>
+        <option value="AFG">Afghanistan</option>
+    </select>
+    <br/><br/>
+
+    Upload image
+    <input type="file" required name="user pic">
+    <br/><br/>
+
+    About yourself
+    <textarea rows="5" cols="6" required name="user data">
+
+
+    </textarea>
+    <br/><br/>
+
+
+    <button type="submit" style="background-color: aqua;color: black">Register</button>
+
+</form>
+</body>
+</html>
