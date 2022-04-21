@@ -14,19 +14,23 @@ else {
 if (hour==11 && min==30){
     alert("Its 11:30")
 }*/
-let login=prompt(`Your Status`,'');
-if (login==='Admin') {
-    let pass = prompt(`password`, '');
-    if (pass === 'TheMaster') {
-        alert(`Welcome`);
-    } else if (pass === '' || pass === null) {
-        alert(`Cancelled`);
-    } else {
-        alert(`Wrong Password`);
+let login=prompt(`Status Please`,'');
+if (login==='Admin'){
+    let pass=prompt(`Enter Password`,'');
+    if (pass==='TheMaster'){
+        alert(`Welcome`)
     }
-}
-else if (login===''||login===null){
-        alert(`Cancelled`)
-    } else {
-        alert(`I Dont Know You`)
+    else if (pass===''||pass===null){
+            alert(`cancelled`)
+        }
+        else {
+            alert(`Wrong Password`);
+        }
+    }
+else if(login===''||login===null){
+    alert(`Cancelled`)
+        }
+else {
+    alert(`I Dont Know You`);
+
 }
