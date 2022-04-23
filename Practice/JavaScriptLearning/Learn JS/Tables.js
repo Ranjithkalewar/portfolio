@@ -8,7 +8,7 @@ let userName=prompt(`Enter your Name`,'');
 function myMessage(){
     let message='Hello,' + userName;
     alert(message);
-}*/
+}
 function ageCheck(age){
     if (age>=18){
         return true;
@@ -31,3 +31,20 @@ if (ageCheck(age)){
 }else {
     alert(`No Access`);
 }
+function checkAge(age) {
+    return (age > 18) ? true : confirm('Did parents allow you?');
+}
+function min(a, b){
+    return (min(1, 1));
+}*/;
+function gender(question, yes, no) {
+    if (confirm(question)) yes()
+    else no()
+}
+function showOk(){
+    alert(`You are Male`);
+}
+function showCancel(){
+    alert(`You are Female`)
+}
+gender(`Are you male`, showOk, showCancel);
