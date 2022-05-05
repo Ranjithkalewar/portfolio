@@ -1,15 +1,16 @@
 let login=prompt(`Status`,'');
-if(login==='Admin'){
-    let pass=prompt(`Enter Password`,'');
-    if (pass==='TheMaster'){
+if(login==='Admin') {
+    let pass = prompt(`Enter Password`, '');
+    if (pass === 'TheMaster') {
         alert(`Welcome`);
-    }else if (pass===''||pass===null){
+    } else if (pass === '' || pass === null) {
         alert(`Cancelled`);
-    }else {
+    } else {
         alert(`Wrong Password`);
     }
-}else if (login===''||login===null){
+}
+else if (login===''||login===null){
     alert(`Cancelled`);
 }else {
-    alert(`I Dont Know You`);
+    alert(`Un identified User`);
 }
