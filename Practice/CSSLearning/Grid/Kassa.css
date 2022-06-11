@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #b4b2b2;
+    width: 100%;
+    height: 100vh;
+}
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+.head{
+    /*position: fixed;*/
+    /*top: 5px;*/
+    width: 100%;
+    height: 80px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.button1{
+    background-color: #f62e2e;
+    font-size: 20px;
+}
+.button2{
+    background-color: yellowgreen;
+    font-size: 20px;
+}.button3{
+     background-color: yellowgreen;
+     font-size: 20px;
+ }
+.button4{
+      background-color: darkgrey;
+      font-size: 20px;
+   }
+.drinks-list {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+.container{
+    /*position: fixed;*/
+    /*top: 85px;*/
+    /*left: 0;*/
+    /*padding-top: 5px;*/
+    Width:450px;
+    height: 350px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33% 33% 34%;
+}
+.inner-container{
+    width: 800px;
+    height: 150px;
+    /*position: fixed;*/
+    /*top: 90px;*/
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.ordered-list{
+    /*position: fixed;*/
+    /*top: 88px;*/
+    /*right: 0;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+    height: 420px;
+    background-color: white;
+}
+.att{
+    margin-left: 20px;
+    border: 1px solid black;
+    /*padding: 20px 16px 70% 15px;*/
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    /*display: grid;*/
+    grid-template-columns: 50% 50%;
+}
+.pris{
+    margin-right: 50px;
+}
+.betal-list{
+    border: 1px solid #efebeb;
+    display: inline-block;
+    width: 100%;
+    background-color: #ded4d4;
+}
+.x{
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+}
+.betaling{
+    width: 74%;
+    height: 50px;
+    font-size: 20px;
+    background-color: lightgrey;
+    color: #c0baba;
+}
+.bottomSideTotal {
+    padding: 0 0 5px 25px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+}
+.bottom{
+    /*position: fixed;*/
+    /*bottom: 0;*/
+    width: 100%;
+    height: 55px;
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+}
+.cash{
+    background-color: grey;
+}
+.left{
+    background-color: yellowgreen;
+}
+.right{
+    background-color: yellowgreen;
+}
