@@ -1,0 +1,20 @@
+:root{
+    --text-color: black;
+    --font-style:italic;
+    --backgroundcolor:red;
+    --fontsize:30px;
+    --width:40vw;
+}
+
+.section-one{
+    color: var(--text-color);
+    font-style: var(--font-style);
+    background-color: var(--backgroundcolor);
+    font-size: var(--fontsize);
+    width: var(--width);
+
+}
+.section-two{
+    color: var(--text-color);
+    background-color: blue;
+}
