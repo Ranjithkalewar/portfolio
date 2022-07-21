@@ -2,40 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="styles.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myPortfolio</title>
+    <link rel="stylesheet" href="styles.css" type="text/css"/>
 </head>
 <body>
 <!--Header Starts heere-->
-<div class="Ranjith">
+<div class="Ranjith" id="ranjith">
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
     <nav>
         <h2 class="logo">Portfo<span>lio</span></h2>
         <ul>
-            <li><a href="#">Home</a> </li>
-            <li><a href="#">About Me</a> </li>
-            <li><a href="#"> Knowledge</a> </li>
-            <li><a href="#">Skills</a> </li>
-            <li><a href="#">Contact Me</a> </li>
+            <li><a href="#ranjith">Home</a> </li>
+            <li><a href="#about">About Me</a> </li>
+            <li><a href="#education"> Education</a> </li>
+            <li><a href="#skills">Skills</a> </li>
+            <li><a href="contact.html">Contact Me</a> </li>
         </ul>
         <a href="#" class="btn">Follow</a>
     </nav>
     <div class="content">
-        <h4> Hello, My name is</h4>
+        <h4> Hi there, My name is</h4>
         <h1>Ranjith Kumar <span>Kalewar</span></h1>
         <h3>Iam a Web Developer</h3>
-        <div class="newsletter">
-            <form>
-                <input type="email" name="email" id="mail" placeholder="Enter Your Email"/>
-                <input type="submit" name="ok" id="submit" value="Lets Start"/>
-            </form>
-        </div>
+        <input type="submit" name="ok" id="hireSubmit" value="Hire me"/>
     </div>
 </div>
 <!--About section Start-->
 <section class="about">
-    <div class="main">
-        <img src="About.Png" id="abimg">
+    <div class="main" id="about">
+        <!--        <img src="About.Png" id="abimg" alt="My image for the about info">-->
         <div class="abouttext">
             <h2>About Me</h2>
             <h5>Developer & <span>Designer</span></h5>
@@ -46,5 +44,50 @@
         </div>
     </div>
 </section>
+<!--Education section starts here-->
+<div>
+    <h1 class="ed-heading" id="education">My Education</h1>
+    <section class="education" >
+        <div class="ed-one">
+            <img class="ed-symbol" src="https://w7.pngwing.com/pngs/109/113/png-transparent-rajalakshmi-institutions-rajalakshmi-engineering-college-undergraduate-education-diploma-computer-icons-graduation-furniture-hat-graduation-ceremony-thumbnail.png" alt="degree logo">
+            <h1>Engineering Degree </h1>
+            <p>Electronics and Communication Engineering at Jawaharlal Nehru Technological University</p>
+        </div>
+        <div class="ed-two">
+            <img class="ed-symbol" src="https://w7.pngwing.com/pngs/109/113/png-transparent-rajalakshmi-institutions-rajalakshmi-engineering-college-undergraduate-education-diploma-computer-icons-graduation-furniture-hat-graduation-ceremony-thumbnail.png" alt="degree logo">
+            <h1>Bachelor Degree </h1>
+            <p>Northern Studies <br>at University of Tromso</p>
+        </div>
+        <div class="ed-three">
+            <img class="ed-symbol" src="https://w7.pngwing.com/pngs/109/113/png-transparent-rajalakshmi-institutions-rajalakshmi-engineering-college-undergraduate-education-diploma-computer-icons-graduation-furniture-hat-graduation-ceremony-thumbnail.png" alt="degree logo">
+            <h1>Pursuing Masters Degree </h1>
+            <p>Tourism and Hospitality Studies <br>at University of Tromso</p>
+        </div>
+    </section>
+</div>
+<div>
+    <div class="skills-heading" id="skills"><h1>My Skills</h1></div>
+    <section class="skills" >
+        <div class="skill-one">
+            <img class="sk-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" alt="html img">
+            <h1>HTML</h1>
+            <p>Displaying a website while feels client friendly</p>
+        </div><div class="skill-two">
+        <img class="sk-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="html img">
+        <h1>CSS</h1>
+        <p>Displaying a website while feels client friendly</p>
+    </div><div class="skill-three">
+        <img class="sk-img" src="https://cdn.nextptr.com/images/tagimages/javascript_logo.png" alt="html img">
+        <h1>Java Script</h1>
+        <p>Displaying a website while feels client friendly</p>
+    </div><div class="skill-four">
+        <img class="sk-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" alt="html img">
+        <h1>ReactJS</h1>
+        <p>Displaying a website while feels client friendly</p>
+    </div>
+
+    </section>
+</div>
+<script src="portfolio.js"  type="text/javascript"></script>
 </body>
 </html>
