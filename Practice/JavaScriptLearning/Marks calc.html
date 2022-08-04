@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Marks cals</title>
+
+</head>
+<body>
+<table align="center" style="background-color: aqua">
+    <caption><h3>Grade calculator</h3></caption>
+    <tr>
+        <td><label for="rollno">roll number</label></td>
+        <td><input type="text" id="rollno"></td>
+    </tr>
+    <tr>
+        <td><label for="Name">Name</label></td>
+        <td><input type="text" id="name"></td>
+    </tr>
+    <tr>
+        <td colspan="2">Marks in</td>
+    </tr>
+    <tr>
+        <td><label for="telugu">Telugu</label></td>
+        <td><input type="text" id="telugu"></td>
+    </tr>
+    <tr>
+        <td> <label for="english">English</label></td>
+        <td><input type="text" id="english"></td>
+    </tr>
+    <tr>
+        <td><label for="maths">Maths</label></td>
+        <td><input type="text" id="maths"></td>
+    </tr>
+    <tr>
+        <td> <label for="physics">Physics</label></td>
+        <td><input type="text" id="physics"></td>
+    </tr>
+    <tr align="center">
+        <td colspan="2"><button type="button" onclick="getResult()">Get Results</button></td>
+    </tr>
+    <tr align="center">
+        <td colspan="2">
+            <output id="total"></output><br>
+            <output id="average"></output><br>
+            <output id="grade"></output><br>
+        </td>
+    </tr>
+</table>
+<script src="results.js" type="text/javascript"></script>
+</body>
+</html>
